@@ -1,6 +1,6 @@
 .navbar {
   position: fixed;
-  background-color: var(--bg-primary);
+  background-color: var(--nav-primary);
   transition: width 200ms ease;
 }
 
@@ -26,7 +26,7 @@
   display: flex;
   align-items: center;
   height: 5rem;
-  color: var(--text-primary);
+  color: var(--nav-text-primary);
   text-decoration: none;
   filter: grayscale(100%) opacity(0.7);
   transition: var(--transition-speed);
@@ -48,8 +48,8 @@
 
 .nav-link:hover {
   filter: grayscale(0%) opacity(1);
-  background-color: var(--bg-secondary);
-  color: var(--text-secondary);
+  background-color: var(--nav-secondary);
+  color: var(--nav-text-secondary);
 }
 
 .fa-primary {
@@ -72,8 +72,8 @@
   text-transform: uppercase;
   margin-bottom: 1rem;
   text-align: center;
-  color: var(--text-secondary);
-  background: var(--bg-secondary);
+  color: var(--nav-text-secondary);
+  background: var(--nav-secondary);
   font-size: 1.5rem;
   letter-spacing: 0.3ch;
   width: 100%;
@@ -95,12 +95,16 @@
 /* switch */
 /* The switch - the box around the slider */
 button.nav-link,
-button.nav-link:hover,
 button.nav-link:focus,
 button.nav-link:active {
   background-color: transparent;
   border: none;
   outline: none;
+  width: 100%;
+}
+
+button.nav-link:hover {
+  background-color: var(--nav-secondary);
 }
 
 .switch {
@@ -127,7 +131,7 @@ button.nav-link:active {
   right: 0;
   bottom: 0;
   background-color: #ccc;
-  -webkit-transition: 0.4s;
+  transition: 0.4s;
   transition: 0.4s;
 }
 
@@ -139,7 +143,7 @@ button.nav-link:active {
   left: 4px;
   bottom: 4px;
   background-color: white;
-  -webkit-transition: 0.4s;
+  transition: 0.4s;
   transition: 0.4s;
 }
 
@@ -157,7 +161,6 @@ input:checked + .slider:before {
   transform: translateX(26px);
 }
 
-/* Rounded sliders */
 .slider.round {
   border-radius: 34px;
 }

@@ -1,32 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;700&display=swap');
+
 :root {
   font-size: 16px;
-  font-family: 'Open Sans';
-  --text-primary: #b6b6b6;
-  --text-secondary: #eceece;
-  --bg-primary: #23232e;
-  --bg-secondary: #141418;
+  font-family: 'Source Sans Pro', sans-serif;
+  --text-primary: #ffffff;
+  --text-secondary: #b2becd;
+  --nav-text-primary: #b6b6b6;
+  --nav-text-secondary: #eceece;
+  --nav-primary: #2a2e35;
+  --nav-secondary: #141418;
   --transition-speed: 600ms;
 }
 
 body {
-  color: black;
-  background-color: white;
+  color: white;
+  background-color: #171c28;
   margin: 0;
   padding: 0;
 }
 
 body::-webkit-scrollbar {
-  width: 0.25rem;
+  width: 0.8rem;
 }
 
 body::-webkit-scrollbar-track {
-  background: #1e1e24;
+  background-color: var(--nav-secondary);
 }
 
 body::-webkit-scrollbar-thumb {
-  background: #6649b8;
+  border-radius: 0.4rem;
+  background-color: var(--nav-primary);
 }
 
-h1 {
-  margin: 0;
+.content {
+  display: flex;
+  color: var(--text-primary);
+  font-weight: 300;
+  font-size: 2rem;
+}
+
+.fa-primary {
+  color: #df49a6;
+}
+
+@media only screen and (min-width: 600px) {
+  .content {
+    margin-left: 5rem;
+  }
+
+  .social {
+    right: 0.5%;
+    bottom: 2%;
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .social-link {
+    filter: grayscale(100%);
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+  }
+
+  .social-link:hover {
+    filter: grayscale(0);
+  }
 }
