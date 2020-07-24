@@ -3,8 +3,9 @@
 }
 
 .container {
+  width: 100vw;
   margin-left: 5rem;
-  padding: 15vh 5vw;
+  padding: 10vh 5vw;
   display: flex;
 }
 

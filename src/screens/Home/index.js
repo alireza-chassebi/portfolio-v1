@@ -8,14 +8,16 @@ const Home = () => {
       <div className="Home">
         <p>
           Hello!
-          <span id="wave" role="img" aria-label="hi">
-            👋🏾
-          </span>
+          <div id="wave">
+            <span role="img" aria-label="hi">
+              👋🏾
+            </span>
+          </div>
         </p>
         <p>
-          I'm <span>Alireza Chassebi</span> a design-minded, customer-focused
-          software ethusiast focused on building beautiful interfaces &
-          experiences
+          I'm <span>Alireza Chassebi</span> a design-minded, user-focused
+          software ethusiast focused on building amazing experiences and
+          continuously improving
           <span role="img" aria-label="computer">
             👨🏾‍💻
           </span>

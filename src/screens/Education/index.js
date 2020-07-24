@@ -12,9 +12,11 @@ const Education = () => {
       <div className="Education">
         <p>
           Education
-          <span role="img" aria-label="education">
-            🎓
-          </span>
+          <div id="grad">
+            <span role="img" aria-label="education">
+              🎓
+            </span>
+          </div>
         </p>
         <p className="education-body">
           I'm currently a Computer Engineering student (Exp 2017-2021) at the

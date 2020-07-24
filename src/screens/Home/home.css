@@ -4,6 +4,14 @@
   flex: 0 0 70%;
 }
 
+#wave {
+  display: inline-block;
+}
+
+#wave:hover {
+  animation: wave 2s ease-in-out;
+}
+
 @media only screen and (max-width: 1024px) {
   .Home {
     font-size: 2.5rem;
@@ -20,5 +28,23 @@
 @media only screen and (max-width: 550px) {
   .Home {
     font-size: 1.75rem;
+  }
+}
+
+@keyframes wave {
+  0% {
+    transform: rotate(0deg);
+  }
+  25% {
+    transform: rotate(50deg);
+  }
+  50% {
+    transform: rotate(0deg);
+  }
+  75% {
+    transform: rotate(50deg);
+  }
+  100% {
+    transform: rotate(0deg);
   }
 }

@@ -25,6 +25,7 @@ const skills = {
         'Babel',
         'React Dev Tools',
         'Postman',
+        'npm',
       ],
     },
     {

@@ -1,0 +1,60 @@
+.Project {
+  font-size: 1.2rem;
+  padding: 0 20px;
+  flex: 0 0 280px;
+  min-height: 300px;
+  margin: 10px;
+  background-color: rgb(23, 42, 69);
+  border-radius: 3px;
+  box-shadow: rgba(2, 12, 27, 0.7) 0px 10px 30px -15px;
+}
+
+.Project-title {
+  font-weight: 600;
+}
+
+.Project-description {
+  font-size: 0.9rem;
+  color: rgb(168, 178, 209);
+}
+
+.Project-tech {
+  opacity: 0.7;
+  margin-top: 40px;
+  font-size: 0.8rem;
+  color: rgb(168, 178, 209);
+  font-weight: 600;
+  word-spacing: 1rem;
+}
+
+.Project-icons {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+
+.Project svg {
+  margin-top: 30px;
+  height: 40px;
+  width: 40px;
+}
+
+.Project-links {
+  width: 60px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.Project-links svg {
+  filter: grayscale(100%);
+  height: 20px;
+  width: 20px;
+}
+
+.Project-links svg:hover {
+  filter: grayscale(0%);
+}
+
+.fa-primary {
+  fill: #df49a6;
+}
