@@ -47,7 +47,6 @@ body::-webkit-scrollbar-thumb {
   color: var(--text-primary);
   font-weight: 300;
   font-size: 2rem;
-  flex-grow: 1;
 }
 
 .fa-primary {

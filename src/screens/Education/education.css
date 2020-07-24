@@ -47,8 +47,9 @@
   }
 }
 
-@media only screen and (max-width: 550px) {
+@media only screen and (max-width: 600px) {
   .Education {
     font-size: 1.75rem;
+    margin-bottom: 5vh;
   }
 }

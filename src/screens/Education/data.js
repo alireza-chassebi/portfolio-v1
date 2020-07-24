@@ -3,11 +3,11 @@ const skills = {
   lists: [
     {
       title: 'Front End',
-      list: ['HTML5', 'CSS3', 'Javascript', 'React', 'React Native'],
+      list: ['HTML5', 'CSS', 'Javascript', 'React', 'React Native'],
     },
     {
       title: 'Back End',
-      list: ['C/C++', 'Python', 'Node.js - Express', 'Ruby - RoR (basic)'],
+      list: ['C/C++', 'Python', 'Node.js - Express'],
     },
     {
       title: 'Databases',
@@ -29,7 +29,7 @@ const skills = {
     },
     {
       title: 'Other',
-      list: ['Agile', 'Waterfall', 'TDD', 'CI/CD'],
+      list: ['Agile', 'Waterfall', 'TDD', 'CI/CD', 'Jest'],
     },
   ],
 };
