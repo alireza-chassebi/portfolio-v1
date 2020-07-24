@@ -1,0 +1,24 @@
+.Home {
+  font-size: 3rem;
+  padding: 70px 30px;
+  flex: 0 0 70%;
+}
+
+@media only screen and (max-width: 1024px) {
+  .Home {
+    font-size: 2.5rem;
+    flex: 1;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .Home {
+    font-size: 2.25rem;
+  }
+}
+
+@media only screen and (max-width: 550px) {
+  .Home {
+    font-size: 1.75rem;
+  }
+}

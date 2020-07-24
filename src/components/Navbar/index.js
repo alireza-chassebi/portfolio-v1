@@ -99,7 +99,7 @@ export const Navbar = () => {
           </NavLink>
         </li>
         <li className="nav-item">
-          <button className="nav-link">
+          {/* <button className="nav-link">
             <svg
               aria-hidden="true"
               focusable="false"
@@ -120,7 +120,8 @@ export const Navbar = () => {
                 <span className="slider round"></span>
               </label>
             </div>
-          </button>
+          </button> */}
+          <p></p> {/*coming soon*/}
         </li>
       </ul>
     </div>

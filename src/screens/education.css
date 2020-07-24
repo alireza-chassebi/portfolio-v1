@@ -1,0 +1,54 @@
+.Education {
+  font-size: 3rem;
+  padding: 0px 40px;
+}
+
+.education-body {
+  font-size: 0.5em;
+}
+
+.list-container {
+  display: flex;
+  justify-content: center;
+}
+
+.list {
+  flex: 1 0 40%;
+}
+
+.list:first-child {
+  margin-right: 10%;
+}
+
+.list a {
+  all: unset;
+  color: white;
+}
+
+.list a:hover {
+  color: #df49a6;
+}
+
+@media only screen and (max-width: 1024px) {
+  .Education {
+    font-size: 2.5rem;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .Education {
+    font-size: 2.25rem;
+  }
+  .list-container {
+    flex-direction: column;
+  }
+  .list:first-child {
+    margin-right: 0%;
+  }
+}
+
+@media only screen and (max-width: 550px) {
+  .Education {
+    font-size: 1.75rem;
+  }
+}
