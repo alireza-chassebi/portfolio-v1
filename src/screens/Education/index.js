@@ -17,7 +17,7 @@ const Education = () => {
           </span>
         </p>
         <p className="education-body">
-          I'm currently a Computer Engineering student at the
+          I'm currently a Computer Engineering student (Exp 2017-2021) at the
           <span> University Of Toronto St George</span>. Computer Engineering
           provided me with knowledge of both software and hardware. However my
           passion lies with Software, specifically Fullstack Development. Over
