@@ -49,7 +49,7 @@ const courses = {
     { title: 'ECE345 (Algorithims & DS)', code: 'ece345' },
     { title: 'ECE444 (Web Dev , SDLC , Testing)', code: 'ece444' },
     {
-      title: 'SC343 (SQL , DB design)',
+      title: 'CSC343 (SQL , DB design)',
       href: 'https://fas.calendar.utoronto.ca/course/csc343h1',
     },
     { title: 'ECE568 (Security , Auth , SSL)', code: 'ece568' },

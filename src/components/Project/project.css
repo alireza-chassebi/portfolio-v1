@@ -1,4 +1,6 @@
 .Project {
+  display: flex;
+  flex-direction: column;
   font-size: 1.2rem;
   padding: 0 20px;
   flex: 0 0 280px;
@@ -20,11 +22,11 @@
 
 .Project-tech {
   opacity: 0.7;
-  margin-top: 40px;
   font-size: 0.8rem;
   color: rgb(168, 178, 209);
   font-weight: 600;
   word-spacing: 1rem;
+  margin-bottom: 30px;
 }
 
 .Project-icons {
@@ -42,17 +44,25 @@
 .Project-links {
   width: 60px;
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-end;
 }
 
 .Project-links svg {
   filter: grayscale(100%);
   height: 20px;
   width: 20px;
+  margin-left: 10px;
 }
 
 .Project-links svg:hover {
   filter: grayscale(0%);
+}
+
+.Project-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex: 1 0 100%;
 }
 
 .fa-primary {
