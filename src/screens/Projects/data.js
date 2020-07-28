@@ -5,7 +5,7 @@ const projects = [
       'First iteration of my website built with React and hosted on Vercel.',
     technologies: ['HTML', 'CSS', 'React'],
     github: 'https://github.com/alireza-chassebi/portfolio-v1',
-    website: 'http://localhost:3000/',
+    website: 'https://alireza-chassebi.vercel.app/',
   },
   {
     title: 'Palette',
