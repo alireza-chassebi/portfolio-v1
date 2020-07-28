@@ -16,7 +16,7 @@ const Home = () => {
         </p>
         <p>
           I'm <span>Alireza Chassebi</span> a design-minded, user-focused
-          software ethusiast focused on building amazing experiences and
+          software ethusiast focused on building amazing experiences and on
           continuously improving
           <span role="img" aria-label="computer">
             👨🏾‍💻
