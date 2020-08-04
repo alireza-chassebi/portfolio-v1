@@ -2,7 +2,7 @@ const schoolProjects = [
   {
     title: 'ECE297 GIS',
     description:
-      'Graphical Information System built over 2 months in a team of 3. We basically built a primitive version of "Google Maps".',
+      'Graphical Information System built over 4 months in a team of 3. We basically built a primitive version of "Google Maps". And we also took part in a travelling salesman problem competition!',
     technologies: ['C++', 'GTK', 'STL', 'Boost', 'EZGL', 'OSM'],
   },
   {
