@@ -22,6 +22,7 @@ const projects = [
       'Docker',
       'Socket.io',
       'React',
+      'Javascript',
       'Websockets',
       'Node',
       'Express',
@@ -32,7 +33,7 @@ const projects = [
   {
     title: 'TodoHooks',
     description: 'Todo list built with react hooks, context and MUI.',
-    technologies: ['React', 'MUI', 'Context', 'hooks'],
+    technologies: ['React', 'MUI', 'Context', 'hooks', 'Javascript'],
     github: 'https://github.com/alireza-chassebi/react-hooks-todo',
     website: 'https://react-hooks-todo.vercel.app/',
   },
@@ -40,7 +41,13 @@ const projects = [
     title: 'Pokedex',
     description:
       'Utilized the pokeapi to build a pokedex that displays each pokemons unique stats.',
-    technologies: ['React', 'React-Router', 'Bootstrap', 'PokeAPI'],
+    technologies: [
+      'React',
+      'React-Router',
+      'Bootstrap',
+      'PokeAPI',
+      'Javascript',
+    ],
     website: 'https://pokedex-ruby.vercel.app/',
   },
   {
@@ -54,7 +61,7 @@ const projects = [
     title: 'Portfolio-V1',
     description:
       'First iteration of my website built with React and hosted on Vercel.',
-    technologies: ['HTML', 'CSS', 'React'],
+    technologies: ['HTML', 'CSS', 'React', 'Javascript'],
     github: 'https://github.com/alireza-chassebi/portfolio-v1',
     website: 'https://alireza-chassebi.vercel.app/',
   },
@@ -69,7 +76,7 @@ const projects = [
     title: 'Palette',
     description:
       'Color palette repository built for Android and IOS using React Native. Palettes are stored on the devices local storage and can be deleted with a simple swipe.',
-    technologies: ['Expo', 'ReactNative', 'Gesture-Handler'],
+    technologies: ['Expo', 'ReactNative', 'Gesture-Handler', 'Javascript'],
     github: 'https://github.com/alireza-chassebi/Palette-RN',
   },
 
@@ -90,7 +97,7 @@ const projects = [
     title: 'Faisal Al-Khateeb',
     description:
       'The first website I ever created! A freelance project for a fellow UofT student.',
-    technologies: ['HTML', 'CSS', 'Bootstrap'],
+    technologies: ['HTML', 'CSS', 'Bootstrap', 'Javascript'],
     website: 'http://faisalkhateeb.com/',
   },
   ...schoolProjects,
