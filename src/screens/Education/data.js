@@ -11,7 +11,7 @@ const skills = {
     },
     {
       title: 'Databases',
-      list: ['Postgresql', 'MongoDB'],
+      list: ['PostgreSQL', 'MongoDB'],
     },
     {
       title: 'Tools',

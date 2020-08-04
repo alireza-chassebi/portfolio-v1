@@ -1,28 +1,5 @@
 const projects = [
   {
-    title: 'Portfolio-V1',
-    description:
-      'First iteration of my website built with React and hosted on Vercel.',
-    technologies: ['HTML', 'CSS', 'React'],
-    github: 'https://github.com/alireza-chassebi/portfolio-v1',
-    website: 'https://alireza-chassebi.vercel.app/',
-  },
-  {
-    title: 'Palette',
-    description:
-      'Color palette repository built for Android and IOS using React Native. Palettes are stored on the devices local storage and can be deleted with a simple swipe.',
-    technologies: ['Expo', 'ReactNative', 'Gesture-Handler'],
-    github: 'https://github.com/alireza-chassebi/Palette-RN',
-  },
-
-  {
-    title: 'VidMe',
-    description:
-      'REST api for a movie rental app. Allows users to rent and return movies. Authentication is done using JWT. Front End coming SOON!',
-    technologies: ['Express', 'MongoDB', 'Jest', 'JWT'],
-    github: 'https://github.com/alireza-chassebi/VidMe',
-  },
-  {
     title: 'Websocket Editor',
     description:
       'Simple rich text editor built for groups. Conventional hotkeys can be used to change text styling and the URL can be shared to add people to the group.',
@@ -32,7 +9,7 @@ const projects = [
   },
   {
     title: 'TodoHooks',
-    description: 'Todo list I built to try out MUI.',
+    description: 'Todo list built with react hooks, context and MUI.',
     technologies: ['React', 'MUI'],
     github: 'https://github.com/alireza-chassebi/react-hooks-todo',
     website: 'https://react-hooks-todo.vercel.app/',
@@ -52,9 +29,38 @@ const projects = [
     website: 'https://alirezas-game-of-life.herokuapp.com/',
   },
   {
-    title: 'Timing',
+    title: 'Portfolio-V1',
     description:
-      'Stopwatch I built for my phone because I did not like the one on my phone.',
+      'First iteration of my website built with React and hosted on Vercel.',
+    technologies: ['HTML', 'CSS', 'React'],
+    github: 'https://github.com/alireza-chassebi/portfolio-v1',
+    website: 'https://alireza-chassebi.vercel.app/',
+  },
+  {
+    title: 'Likeify',
+    description:
+      'CLI tool that automates the conversion of your liked Youtube videos into a new Spotify playlist.',
+    technologies: ['Python', 'Spotify', 'Youtube'],
+    github: 'https://github.com/alireza-chassebi/likeify',
+  },
+  {
+    title: 'Palette',
+    description:
+      'Color palette repository built for Android and IOS using React Native. Palettes are stored on the devices local storage and can be deleted with a simple swipe.',
+    technologies: ['Expo', 'ReactNative', 'Gesture-Handler'],
+    github: 'https://github.com/alireza-chassebi/Palette-RN',
+  },
+
+  {
+    title: 'VidMe',
+    description:
+      'REST api for a movie rental app. Allows users to rent and return movies. Authentication is done using JWT. Front End in progress!',
+    technologies: ['Express', 'MongoDB', 'Jest', 'JWT'],
+    github: 'https://github.com/alireza-chassebi/VidMe',
+  },
+  {
+    title: 'Timing',
+    description: 'Variable phone timer.',
     technologies: ['Expo', 'ReactNative'],
     github: 'https://github.com/alireza-chassebi/timing',
   },

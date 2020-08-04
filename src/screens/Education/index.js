@@ -22,9 +22,9 @@ const Education = () => {
           I'm currently a Computer Engineering student (Exp 2017-2021) at the
           <span> University Of Toronto St George</span>. Computer Engineering
           provided me with knowledge of both software and hardware. However my
-          passion lies with Software, specifically Fullstack Development. Over
-          the years I have spent alot of my time learning about Software both
-          through academia and reading.
+          passion lies with Software. Over the years I have spent alot of my
+          time learning about Software through academia, reading & project-based
+          learning.
         </p>
         <div className="list-container">
           <div className="list education-body">
