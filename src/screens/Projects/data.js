@@ -1,16 +1,38 @@
+const schoolProjects = [
+  {
+    title: 'ECE297 GIS',
+    description:
+      'Graphical Information System built over 2 months in a team of 3. We basically built a primitive version of "Google Maps".',
+    technologies: ['C++', 'GTK', 'STL', 'Boost', 'EZGL', 'OSM'],
+  },
+  {
+    title: 'ECE444 StudyBuddy',
+    description:
+      'Web application built over 2 months in a team of 5. The purpose of the app was to provide a platform for students to hire tutors, make study groups and share/rate notes.',
+    technologies: ['RoR', 'Stripe', 'PostgreSQL', 'Bootstrap', 'HTML', 'CSS'],
+  },
+];
+
 const projects = [
   {
     title: 'Websocket Editor',
     description:
       'Simple rich text editor built for groups. Conventional hotkeys can be used to change text styling and the URL can be shared to add people to the group.',
-    technologies: ['Docker', 'Socket.io', 'React', 'Websockets'],
+    technologies: [
+      'Docker',
+      'Socket.io',
+      'React',
+      'Websockets',
+      'Node',
+      'Express',
+    ],
     github: 'https://github.com/alireza-chassebi/websocket-editor',
     website: 'https://websocket-editor.herokuapp.com/',
   },
   {
     title: 'TodoHooks',
     description: 'Todo list built with react hooks, context and MUI.',
-    technologies: ['React', 'MUI'],
+    technologies: ['React', 'MUI', 'Context', 'hooks'],
     github: 'https://github.com/alireza-chassebi/react-hooks-todo',
     website: 'https://react-hooks-todo.vercel.app/',
   },
@@ -18,13 +40,13 @@ const projects = [
     title: 'Pokedex',
     description:
       'Utilized the pokeapi to build a pokedex that displays each pokemons unique stats.',
-    technologies: ['React', 'React-Router', 'Bootstrap'],
+    technologies: ['React', 'React-Router', 'Bootstrap', 'PokeAPI'],
     website: 'https://pokedex-ruby.vercel.app/',
   },
   {
     title: 'Game Of Life',
     description: "Conway's game of life simulation.",
-    technologies: ['React', 'MUI'],
+    technologies: ['React', 'Typescript', 'CSS-Grid'],
     github: 'https://github.com/alireza-chassebi/game-of-life',
     website: 'https://alirezas-game-of-life.herokuapp.com/',
   },
@@ -55,7 +77,7 @@ const projects = [
     title: 'VidMe',
     description:
       'REST api for a movie rental app. Allows users to rent and return movies. Authentication is done using JWT. Front End in progress!',
-    technologies: ['Express', 'MongoDB', 'Jest', 'JWT'],
+    technologies: ['Express', 'MongoDB', 'Jest', 'JWT', 'Node'],
     github: 'https://github.com/alireza-chassebi/VidMe',
   },
   {
@@ -71,22 +93,7 @@ const projects = [
     technologies: ['HTML', 'CSS', 'Bootstrap'],
     website: 'http://faisalkhateeb.com/',
   },
+  ...schoolProjects,
 ];
 
-const schoolProjects = [
-  {
-    title: 'ECE297 GIS',
-    description:
-      'Graphical Information System built over 2 months in a team of 3. We basically built a primitive version of "Google Maps".',
-    technologies: ['C++', 'GTK', 'LibCurl'],
-  },
-  {
-    title: 'ECE444 StudyBuddy',
-    description:
-      'Web application built over 2 months in a team of 5. The purpose of the app was to provide a platform for students to hire tutors, make study groups and share/rate notes.',
-    technologies: ['RoR', 'Stripe', 'Bootstrap', 'Postgresql'],
-  },
-];
-
-export { projects, schoolProjects };
-// title, description, technologies, github, website
+export default projects;

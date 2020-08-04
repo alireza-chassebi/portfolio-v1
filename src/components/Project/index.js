@@ -74,4 +74,4 @@ Project.defaultProps = {
   // technologies
 };
 
-export { Project };
+export default Project;

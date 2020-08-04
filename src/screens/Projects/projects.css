@@ -6,6 +6,10 @@
   margin: 0 7.5vw 0 7.5vw;
 }
 
+.Projects > p {
+  margin: 10vh 0 0 0;
+}
+
 .Projects-list {
   display: flex;
   justify-content: center;
@@ -14,6 +18,11 @@
   width: 100%;
   text-align: start;
   margin-bottom: 15vh;
+}
+
+.Projects footer {
+  font-size: 10px;
+  margin-bottom: 10px;
 }
 
 @media only screen and (max-width: 1024px) {
@@ -30,12 +39,15 @@
 }
 
 @media only screen and (max-width: 600px) {
+  .Projects-forms {
+    margin: 0 0 0px 0;
+  }
+
   .Projects-list {
     justify-content: center;
   }
 
   .Projects {
     width: 100vw;
-    font-size: 1.75rem;
   }
 }
